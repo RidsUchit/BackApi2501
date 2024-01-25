@@ -1,0 +1,15 @@
+start": "nodemon functions/api.js"
+
+======================================
+var admin = require("firebase-admin");
+
+var serviceAccount = require("path/to/serviceAccountKey.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
+ 
+
+ https://fcbackapi.netlify.app/.netlify/functions/api/posts/commentadd
+
+  html: "<strong>Your purchase details:Gift Pay eGift Card ${voucher} for ${point} points</strong>",
